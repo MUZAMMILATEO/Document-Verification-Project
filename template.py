@@ -27,11 +27,16 @@ list_of_files = [
 
 for filepath in list_of_files:
     filepath = Path(filepath)
-    filedir, filename = os.path.split(filepath)
-    if filedir != "":
-        os.makedirs(filedir, exist_ok=True)
-    if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
-        with open(filepath, "w") as f:
-            pass
+    # Create the directory if needed
+    if filepath.parent != Path('.'):
+        filepath.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Check if the path seems to be a file (e.g. has a suffix)
+    if filepath.suffix:
+        if (not filepath.exists()) or (filepath.stat().st_size == 0):
+            filepath.write_text("")  # creates or empties the file
+        else:
+            print(f"File is already present at: {filepath}")
     else:
-        print(f"file is already present at: {filepath}")
+        # If it's a directory path, nothing further is needed.
+        pass
