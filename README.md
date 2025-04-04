@@ -7,7 +7,6 @@
 - MLOPs Tool: https://www.evidentlyai.com/
 - MongoDB: https://account.mongodb.com/account/login
 - Data link: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
-- mongodb+srv://atlas-sample-dataset-load-67f02fddaa2b5f23c43359dc:khanm@cluster0.zizpbkz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 ## Git commands
 
