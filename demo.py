@@ -1,5 +1,6 @@
 from DVP.logger import logging
 from DVP.exception import USvisaException
+import sys
 
 logging.info("Welcome to custom log!")
 
