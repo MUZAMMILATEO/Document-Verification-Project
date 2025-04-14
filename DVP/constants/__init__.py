@@ -1,7 +1,7 @@
 import os
 from datetime import date
 
-DATABASE_NAME = "US_VISA"
+DATABASE_NAME = "US_VISA_DATASET"
 
 COLLECTION_NAME = "visa_data"
 
