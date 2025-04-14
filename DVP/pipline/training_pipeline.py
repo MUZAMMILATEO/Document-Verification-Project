@@ -9,14 +9,14 @@ from DVP.components.model_evaluation import ModelEvaluation
 from DVP.components.model_pusher import ModelPusher
 
 
-from us_visa.entity.config_entity import (DataIngestionConfig,
+from DVP.entity.config_entity import (DataIngestionConfig,
                                          DataValidationConfig,
                                          DataTransformationConfig,
                                          ModelTrainerConfig,
                                          ModelEvaluationConfig,
                                          ModelPusherConfig)
 
-from us_visa.entity.artifact_entity import (DataIngestionArtifact,
+from DVP.entity.artifact_entity import (DataIngestionArtifact,
                                             DataValidationArtifact,
                                             DataTransformationArtifact,
                                             ModelTrainerArtifact,
