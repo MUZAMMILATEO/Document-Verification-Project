@@ -41,3 +41,10 @@ pip install -r requirements.txt
 
 1. constants
 2. entity
+
+
+### Export thr environment variables
+```bash
+
+export MONGOGB_URL="mongodb+srv://<username>:<password>...."
+```
