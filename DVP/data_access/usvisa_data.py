@@ -1,6 +1,6 @@
-from us_visa.configuration.mongo_db_connection import MongoDBClient
-from us_visa.constants import DATABASE_NAME
-from us_visa.exception import USvisaException
+from DVP.configuration.mongo_db_connection import MongoDBClient
+from DVP.constants import DATABASE_NAME
+from DVP.exception import USvisaException
 import pandas as pd
 import sys
 from typing import Optional
