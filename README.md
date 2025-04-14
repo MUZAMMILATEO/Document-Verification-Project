@@ -41,6 +41,7 @@ pip install -r requirements.txt
 
 1. constants
 2. entity
+3. components
 
 
 ### Export the environment variables
