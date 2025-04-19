@@ -2,7 +2,7 @@ import sys
 from DVP.exception import USvisaException
 from DVP.logger import logging
 from DVP.components.data_ingestion import DataIngestion
-# from DVP.components.data_validation import DataValidation
+from DVP.components.data_validation import DataValidation
 # from DVP.components.data_transformation import DataTransformation
 # from DVP.components.model_trainer import ModelTrainer
 # from DVP.components.model_evaluation import ModelEvaluation
