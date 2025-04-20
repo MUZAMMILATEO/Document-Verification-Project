@@ -10,15 +10,15 @@ from DVP.components.data_validation import DataValidation
 
 
 from DVP.entity.config_entity import (DataIngestionConfig,
-                                          DataValidationConfig,)
-#                                          DataTransformationConfig,
+                                          DataValidationConfig,
+                                          DataTransformationConfig,)
 #                                          ModelTrainerConfig,
 #                                          ModelEvaluationConfig,
 #                                          ModelPusherConfig)
 # 
 from DVP.entity.artifact_entity import (DataIngestionArtifact,
-                                             DataValidationArtifact,)
-#                                             DataTransformationArtifact,
+                                             DataValidationArtifact,
+                                             DataTransformationArtifact,)
 #                                             ModelTrainerArtifact,
 #                                             ModelEvaluationArtifact,
 #                                             ModelPusherArtifact)
