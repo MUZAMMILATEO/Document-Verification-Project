@@ -10,8 +10,8 @@ from uvicorn import run as app_run
 from typing import Optional
 
 from DVP.constants import APP_HOST, APP_PORT
-from DVP.pipline.prediction_pipeline import USvisaData, USvisaClassifier
-from DVP.pipline.training_pipeline import TrainPipeline
+from DVP.pipeline.prediction_pipeline import USvisaData, USvisaClassifier
+from DVP.pipeline.training_pipeline import TrainPipeline
 
 app = FastAPI()
 
