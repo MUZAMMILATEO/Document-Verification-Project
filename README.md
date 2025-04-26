@@ -7,7 +7,7 @@
 - MLOPs Tool: https://www.evidentlyai.com/
 - MongoDB: https://account.mongodb.com/account/login
 - Data link: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
-- mongodb+srv: ******
+- mongodb+srv: "mongodb+srv://<username>:<password>...."
 ## Git commands
 
 ```bash
@@ -49,10 +49,10 @@ export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
 export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 
-```
 
 
-# AWS-CICD-Deployment-with-Github-Actions
+
+## AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
 
